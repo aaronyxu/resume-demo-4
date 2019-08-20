@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Aaron's Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+
+  <script src="//at.alicdn.com/t/font_1280948_6wjysc3q0cq.js"></script>
+  <link rel="stylesheet" href="./loading.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div id="siteWelcome" class="site-welcome active">
+    <div class="loading"></div>
+  </div>
+  <div id="topNavBar" class="topNavBar">
+    <div class="topNavBar-inner clearfix">
+      <a class="logo" href="#" alt="logo" style="float: left; ">
+        <span class="ax">AX</span><span class="card">card</span>
+      </a>
+      <nav class="menu" style="float: right;">
+        <ul class="clearfix">
+          <li><a href="#siteAbout">ABOUT</a></li>
+          <li><a href="#siteSkills">SKILLS</a></li>
+          <li>
+            <a href="#siteWorks">PORTFOLIO</a>
+            <ul class="subMenu">
+              <li>JAVASCRIPT</li>
+              <li>RUBY/RAILS</li>
+              <li>NODE.JS</li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">BLOG</a>
+            <ul class="subMenu">
+              <li>BLOG 1</li>
+              <li>BLOG 2</li>
+              <li>BLOG 3</li>
+            </ul>
+          </li>
+          <li><a href="#">CALENDAR</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">OTHER</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="mask"></div>
+  </div>
+  <main>
+    <div data-x id="siteAbout" class="userCard">
+      <div class="pictureAndText clearfix">
+        <div class="picture">
+          <img src="./img/avatar.PNG" width=299 height=347 alt="头像">
+        </div>
+        <div class="text">
+          <span class="welcome">Hello
+            <span class="triangle"></span>
+          </span>
+          <h1>I'm <b>Aaron Xu</b></h1>
+          <p>Front-End Developer</p>
+          <hr>
+          <dl>
+            <dt>AGE</dt>
+            <dd>26</dd>
+            <dt>CITY</dt>
+            <dd>Shanghai</dd>
+            <dt>E-MAIL</dt>
+            <dd>sgyxu10@hotmail.com</dd>
+            <dt>PHONE</dt>
+            <dd>15988616588</dd>
+          </dl>
+        </div>
+      </div>
+      <footer class="media">
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-ttww"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-weibo"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-tian7_facebook"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-github"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-jirengulogojichu1"></use>
+          </svg>
+        </a>
+      </footer>
+    </div>
+
+    <p class="downloadResume-wrapper">
+      <a class="downloadResume" href="./download-demo.pdf" target="_blank" download>
+        DOWNLOAD RESUME
+      </a>
+    </p>
+
+
+
+    <p class="selfIntroduction">
+    </p>
+
+  </main>
+
+
+
+
+  <section data-x id="siteSkills" class="skills">
+    <h2>SKILLS</h2>
+    <ol class="clearfix">
+      <li>
+        <h3>
+          HTML 5 &amp; CSS 3
+          <span class="barValue">80%</span>
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 80%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          JavaScript
+          <span class="barValue">70%</span>
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 70%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          jQuery
+          <span class="barValue">72%</span>
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 72%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          Vue
+          <span class="barValue">65%</span>
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 65%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          React
+          <span class="barValue">60%</span>
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 60%"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          HTTP
+          <span class="barValue">90%</span>
+        </h3>
+        <div class="progressBar">
+          <div class="progress" style="width: 90%"></div>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section data-x id="siteWorks" class="portfolio">
+
+
+
+    <h2>PORTFOLIOS</h2>
+
+
+
+    
+    <div id="mySlides">
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <img class="swiper-slide" src="./img/nav-page.png">
+          <img class="swiper-slide" src="./img/canvas-page.png">
+          <img class="swiper-slide" src="./img/slides-page.png">
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+
+  </section>
+
+
+
+  <section class="message">
+    <h2>Leave A Short Message</h2>
+    <ol id="messageList">
+
+    </ol>
+
+
+  <form id="postMessageForm" style="width: 700px; margin: 50px auto;">
+      <label for="">Name</label>
+      <input type="text" name="name">
+      <label for="">Message</label>
+      <input type="text" name="content">
+      <input type="submit" value="Submit">
+    </form>
+
+  </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.15.0/dist/av-min.js"></script>
+
+
+  <script src="./js/loading.js"></script>
+  <script src="./js/init-swiper.js"></script>
+  <script src="./js/auto-slide-up.js"></script>
+  <script src="./js/sticky-topbar.js"></script>
+  <script src="./js/smoothly-navigation.js"></script>
+  <script src="./js/message.js"></script>
+
+
+
+
+</body>
+
+</html>
